@@ -1,0 +1,71 @@
+address {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+--maincolor-light: #2B7FFF;
+--maincolor-dark: #011C44;
+--main-color-white: #FFFFFF;
+--secondarycolor-blue: #011F4A;
+--secondarycolor-dark: #4A4A4A;
+}
+
+body {
+    color: var(--maincolor-dark);
+}
+
+/* link */
+.headerlink:hover{
+    color: var(--maincolor-light);
+}
+.headerlink {
+    color: var(--maincolor-dark);
+}
+
+/* section 1 */
+.h1 {
+color: var(--maincolor-light);
+}
+
+.button {
+    color: var(--main-color-white);
+    background-color: var(--maincolor-light);
+    border: var(--maincolor-light);
+}
+
+.signature-mainsectoin {
+    color: var(--secondarycolor-dark) ;
+}
+
+/* section 2 */
+
+.title-about-us {
+    color: var(--maincolor-light);
+}
+
+/* section 3 */
+.title-why-us {
+    color: var(--maincolor-light);
+}
+
+/* section 4 */
+.our-procedures {
+    color: var(--maincolor-light);
+}
+
+
+
+/* section 5 */
+.contacts {
+    color: var(--maincolor-light);
+}
+
+/* footer */
+
+.footer-link {
+    color: var(--main-color-white);
+} 
