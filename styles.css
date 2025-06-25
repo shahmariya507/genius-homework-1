@@ -1,0 +1,188 @@
+/*  Found */
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v48-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-v48-latin-600.woff2') format('woff2');
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v48-latin-700.woff2') format('woff2');
+}
+/* play-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v20-latin-regular.woff2') format('woff2');
+ 
+}
+
+/* play-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v20-latin-700.woff2') format('woff2');
+}
+
+/*  Basic */
+
+:root {
+--maincolor-light: #2B7FFF;
+--maincolor-dark: #011C44;
+--main-color-white: #FFFFFF;
+--secondarycolor-blue: #011F4A;
+--secondarycolor-dark: #4A4A4A;
+}
+
+body {
+    color: var(--maincolor-dark);
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 100%;
+
+}
+address {
+    list-style: none;
+}
+
+ul {
+   list-style: none;
+}
+
+/* link */
+.headerlink:hover{
+    color: var(--maincolor-light);
+font-weight: 600;
+font-size: 18px;
+
+}
+.headerlink {
+    color: var(--maincolor-dark);
+    text-decoration: none;
+}
+
+/* section 1 */
+.h1 {
+color: var(--maincolor-light);
+font-family: 'Play';
+font-weight: 700;
+font-size: 140px;
+text-transform: capitalize;
+line-height: 0.8;
+}
+
+.button {
+    color: var(--main-color-white);
+    background-color: var(--maincolor-light);
+    border: var(--maincolor-light);
+    font-weight: 600;
+}
+
+.signature-mainsectoin {
+    color: var(--secondarycolor-dark) ;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* section 2 */
+.about-us{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.title-about-us{
+   font-size: 64px; 
+    font-family: 'Play';
+        font-weight: 700;
+        line-height: 100%;
+}
+
+.selection-title-about-us {
+    color: var(--maincolor-light);
+   
+}
+.Text-about-us {
+   font-weight: 600;
+
+}
+
+/* section 3 */
+.why-us {
+    line-height: 1.3;
+}
+.title-why-us {
+    font-size: 64px;
+    font-family: 'Play';
+        font-weight: 700;
+        line-height: 100%;
+}
+
+.selection-title-why-us {
+    color: var(--maincolor-light);
+
+}
+
+
+
+/* section 4 */
+.our-procedure {
+    font-size: 22px;
+}
+
+.title-our-procedure{
+font-family: 'Play';
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.selection-title-our-procedures {
+    color: var(--maincolor-light);
+    
+}
+
+
+
+/* section 5 */
+.title-contacts{
+font-family: 'Play';
+    font-weight: 700;
+font-size: 64px;
+}
+
+.selection-title-contacts {
+    color: var(--maincolor-light);
+}
+
+/* footer */
+
+.footer-link {
+    color: var(--main-color-white);
+    text-decoration: none;
+    font-style: normal;
+} 
+footer{
+    background-color: var( --maincolor-dark);
+    font-size: 16px;
+}
